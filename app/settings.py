@@ -81,7 +81,6 @@ WSGI_APPLICATION = 'app.wsgi.application'
 # Uncomment for Heroku
 import dj_database_url
 DATABASES = {
-    #'default': dj_database_url.config(default='sqlite://django-rest-apis.db')
     'default': dj_database_url.config()
 }
 
