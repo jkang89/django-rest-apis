@@ -24,22 +24,22 @@
 		},
 		"CONSUMER_KEY":{
 			"description":"Twitter API consumer key (Visit http://apps.twitter.com)",
-			"value":"",
+			"value":"KjSUQMOfgS8lbnpOqE0elmn2o",
 			"required":true
 		},
 		"CONSUMER_SECRET":{
 			"description":"Twitter API consumer secret",
-			"value":"",
+			"value":"XBxOmG87UgYfgQDSSSEdD7cIoFUj9rJG2XHEsbV4TjWpfIorR4",
 			"required":true
 		},
 		"ACCESS_TOKEN":{
 			"description":"Twitter API access token",
-			"value":"",
+			"value":"2155490413-XWMJqPMEqiGIh9Vdt1yT8GKQOqOOTWHfh3sQyZo",
 			"required":true
 		},
 		"ACCESS_TOKEN_SECRET":{
 			"description":"Twitter API access token secret",
-			"value":"",
+			"value":"T0QcyOfyx4hRV2ZfXzfAx8AK61lCMAGkxy3T2OgQLcY5Y",
 			"required":true
 		}
 	},
