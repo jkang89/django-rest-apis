@@ -4,7 +4,7 @@ except ImportError, exp:
     pass
 
 DEBUG = True
-SECRET_KEY = ';^E|p>s@$3<G=PrKPgS9}S!DkzjY&?;VKv_9Ue>)JMmfaCel$;'
+SECRET_KEY = '2a8809046b75150bcc05b78544629db87a9aebc4c547eaf2c1a98ed5a6f4f38f'
 
 SOCIAL_AUTH_TWITTER_KEY = 'KjSUQMOfgS8lbnpOqE0elmn2o'
 SOCIAL_AUTH_TWITTER_SECRET = 'XBxOmG87UgYfgQDSSSEdD7cIoFUj9rJG2XHEsbV4TjWpfIorR4'
