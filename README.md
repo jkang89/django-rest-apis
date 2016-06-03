@@ -27,14 +27,14 @@ To run this sample code, you'll need to install the following libraries:
 
 You can install these with the following command:
 
-    pip install -r requirements.txt
+    sudo pip install -r requirements.txt
 
 Getting Started
 ============
 
 - Create a Twitter App (https://apps.twitter.com/)
 
-- In the Twitter App config, ensure the Callback URL is `http://127.0.0.1:9000/complete/twitter`
+- In the Twitter App config, ensure the Callback URL is `http://127.0.0.1:9000/complete/twitter` 
 
 - In the settings.py or settings_my.py, set the following to your own key or set the secret key as an environment variable in the production environment:
 
@@ -107,7 +107,7 @@ Deploying to Heroku is even easier. The defaults in settings.py are pre-configur
 - Create a Twitter App (https://apps.twitter.com/)
 - Generate the Twitter API credentials and enter the proper values for "value" in the app.json file
 - Click on the Deploy Heroku button below
-- When prompted during the Heroku install, specify your credentials if they were not specified in the app.json file:
+- When prompted during the Heroku install, specify your credentials if they were not already specified in the app.json file:
 
 	- CONSUMER_KEY
 	- CONSUMER_SECRET
@@ -115,6 +115,8 @@ Deploying to Heroku is even easier. The defaults in settings.py are pre-configur
 	- ACCESS_TOKEN_SECRET
 	
 - After deploying, in the Twitter App config, ensure the Callback URL is `http://your-app-name.herokuapp.com/complete/twitter`
+
+- On the Heroku Dashboard for your app, click on the Deploy tab and connect the app to the proper Github repo
 
 - To sync the database, use the Heroku CLI and run the following:
 
@@ -188,5 +190,7 @@ If you receive a 401 at login/twitter it is most likely caused by a datetime dis
 Use NTP to sync time on your server to compensate for the dift.
 
 If you are getting this error on OSX, toggle the "set time zone" checkbox off and back on in Date & Time system preferences for a manual and temporary fix. It has been reported that OSX 10.9 Mavericks has an issue with time drift.
+
+If you are still receiving the 401 error, it could be due to invalid credentials. Be sure to double check the DJANGO_SECRET_KEY, the Access Token value, the Acess Token Secret value, Consumer Key value, and Consumer Secret value in all the places they are specified.
 
 Lastly, sample video provided by [TechSlides.com](http://techslides.com/sample-webm-ogg-and-mp4-video-files-for-html5).
