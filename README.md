@@ -13,7 +13,7 @@ types of campaigns, including:
 
 As always, when developing on top of the Twitter platform, you must abide by the [Developer Agreement & Policy](https://dev.twitter.com/overview/terms/agreement-and-policy). 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/twitterdev/django-rest-apis)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/jkang89/django-rest-apis)
 
 Requirements
 ============
@@ -129,7 +129,7 @@ Then log in via the Admin console and update your initial Twitter login user acc
 
 - Open a browser and go to the URL specified by your deploy (http://your-app-name.herokuapp.com)
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/twitterdev/django-rest-apis)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/jkang89/django-rest-apis)
 
 Invalidating Twitter tokens on Heroku
 --------
