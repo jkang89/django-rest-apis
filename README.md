@@ -36,7 +36,7 @@ Getting Started
 
 - In the Twitter App config, ensure the Callback URL is `http://127.0.0.1:9000/complete/twitter`
 
-- In the settings.py or settings_my.py, set the following to your own key:
+- In the settings.py or settings_my.py, set the following to your own key or set the secret key as an environment variable in the production environment:
 
     SECRET_KEY = 'YOUR_SECRET_KEY'
 
@@ -102,11 +102,12 @@ To run the process, simply execute:
 Deploying to Heroku
 ============
 
-Deploying to Heroku is even easier. The defaults in settings.py are pre-configured  to easily deploy to Heroku.
+Deploying to Heroku is even easier. The defaults in settings.py are pre-configured to easily deploy to Heroku.
 
 - Create a Twitter App (https://apps.twitter.com/)
-- Click on the Heroku button below
-- When prompted during the Heroku install, specify your:
+- Generate the Twitter API credentials and enter the proper values for "value" in the app.json file
+- Click on the Deploy Heroku button below
+- When prompted during the Heroku install, specify your credentials if they were not specified in the app.json file:
 
 	- CONSUMER_KEY
 	- CONSUMER_SECRET
