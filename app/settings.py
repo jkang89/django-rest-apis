@@ -84,7 +84,7 @@ DATABASES = {
     'default': dj_database_url.config(default='sqlite://django-rest-apis.db')
 }
 
-Uncomment for local database
+#Uncomment for local database
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',

@@ -7,6 +7,7 @@ python-twitter==2.2
 django-adminrestrict
 django-csp==2.0.3
 Fabric==1.7.0
+cryptography==1.2.3
 hachoir-core
 hachoir-parser
 hachoir-metadata
