@@ -78,12 +78,6 @@ WSGI_APPLICATION = 'app.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.9/ref/settings/#databases
 
-# Uncomment for Heroku
-import dj_database_url
-DATABASES = {
-    'default': dj_database_url.config()
-}
-
 #Uncomment for local database
 DATABASES = {
     'default': {
@@ -91,6 +85,12 @@ DATABASES = {
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
+
+# Uncomment for Heroku
+#import dj_database_url
+#DATABASES = {
+#    'default': dj_database_url.config()
+#}
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'

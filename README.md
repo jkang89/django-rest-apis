@@ -143,7 +143,7 @@ To ensure the token invalidation script works properly on Heroku, run the follow
 	
 If this runs properly, follow the below steps to run it as a scheduled job on Heroku:
 
-- Run `heroku addons:add scheduler:standard --app=MY_APP_NAME`
+- Run `heroku addons:create scheduler:standard --app MY_APP_NAME`
 - Log into heroku.com, open your app and go to "Resources"
 - Click on "Heroku Scheduler" and then "Add a New Job"
 - Type in `fab invalidate`
