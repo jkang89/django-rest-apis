@@ -52,7 +52,7 @@ Getting Started
     	
 - To initialize your database, run the from the `django-rest-apis` directory:
 
-  `python manage.py makemigrations --settings=app.settings_my`
+  `python manage.py makemigrations home --settings=app.settings_my`
   
   Then run:
   
